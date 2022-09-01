@@ -13,6 +13,10 @@ function genRandomStr(alhoritm: string, password: string, data='') {
     .digest('hex')
 }
 
+function something() {
+    return 'this function do nothing'
+}
+
 const admins: iUser[] = [
     {email: 'd@d', password: '123456'},
     {email: 'ds@ds', password: '123123'},
